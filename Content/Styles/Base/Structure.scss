@@ -1,0 +1,81 @@
+@import "Global.scss";
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #f0f0f0;
+}
+
+.c-wrapper {
+  margin: 0 auto;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Common xs1, xs2 mobil*/
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+  .c-wrapper {
+    width: $c-wrapper-xs;
+  }
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+  .c-wrapper {
+    width: $c-wrapper-sm;
+  }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+  .c-wrapper {
+    width: $c-wrapper-md;
+  }
+}
+
+.b-item-02::before {
+  content: "\★️ \★️ \★️ \★️ \★️";
+  font-weight: 900;
+  color:darkgray;
+}
+
+.b-item-02-A::before {
+  content: "\★️ \★️ \★️ \★️ \★️";
+  font-weight: 900;
+  color: #f27a1a;
+}
+

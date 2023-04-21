@@ -1,0 +1,59 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .card-01 {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .card-01 .card-01-A {
+    width: 20px;
+    height: 20px;
+  }
+  .card-01 .card-02-B {
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+}
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .card-01 {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .card-01 .card-01-A {
+    width: 20px;
+    height: 20px;
+  }
+  .card-01 .card-02-B {
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+}
+@media all and (min-width: 1320px) {
+  .card-01 {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .card-01 .card-01-A {
+    width: 20px;
+    height: 20px;
+  }
+  .card-01 .card-02-B {
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+}/*# sourceMappingURL=01.css.map */

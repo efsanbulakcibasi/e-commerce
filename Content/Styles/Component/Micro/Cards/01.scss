@@ -1,0 +1,74 @@
+@import "../../../Base/Global.scss";
+@import "../../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .card-01 {
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        margin-bottom: 12px;
+
+        .card-01-A {
+            width: 20px;
+            height: 20px;
+        }
+
+        .card-02-B {
+            margin-left: 8px;
+            font-weight: 500;
+            font-size: 18px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+
+        }
+    }
+
+}
+
+/* Common sm1, sm2 tablet */
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    .card-01 {
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        margin-bottom: 12px;
+
+        .card-01-A {
+            width: 20px;
+            height: 20px;
+        }
+
+        .card-02-B {
+            margin-left: 8px;
+            font-weight: 500;
+            font-size: 18px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    .card-01 {
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        margin-bottom: 12px;
+
+        .card-01-A {
+            width: 20px;
+            height: 20px;
+        }
+
+        .card-02-B {
+            margin-left: 8px;
+            font-weight: 500;
+            font-size: 18px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+
+        }
+    }
+}
